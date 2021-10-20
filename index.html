@@ -1,9 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Penulisan CSS dengan Inline Style</title>
+        <title>Penulisan CSS dengan Internal Style</title>
+        <style type="text/css">
+            #tulisan{
+                color: white
+            }
+
+            .box{
+                background: red;
+                padding: 10px;
+                margin-left: 100px;
+                margin-right: 100px;
+                text-align: center;
+            }
+            #a{
+                color: greenyellow;
+            }
+        </style>
     </head>
     <body>
-        <h1 style="color:blue; font-family:monospace; text-align:center">Ini <a href="https://github.com/anfi3281/Anfee-Dev-CSS/network" style="font-family:sans-serif; color:orange">Repository</a></h1>
+        <div class="box">
+            <h1 id="tulisan">Belajar CSS Dasar Di <br/><a id="a" href="https://malasngoding.com">www.malasngoding.com</a></h1>
+        </div>
     </body>
 </html>
