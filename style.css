@@ -1,17 +1,15 @@
-.tulisan_satu{
-    color: red;
-    font-family: sans-serif;
-    font-style: normal;
+body{
+    background: green;
+}
+.judul{
+    text-align: center;
+    color: white;   
+    background: rgb(110, 231, 110);
+    background-position: 100%;
+    position: relative;
+    
 }
 
-.tulisan_dua{
-    color: green;
-    font-size: 29pt;
-    font-style: italic;
-}
-
-.tulisan_tiga{
-    color: orange;
-    font-weight: bold;
-    font-style: oblique;
+.isi{
+    color: white;
 }
