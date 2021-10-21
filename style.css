@@ -1,15 +1,17 @@
-.box{
-    background: red;
-    width: 200px;
-    height: 300px;
-    padding: 20px;
-    text-align: center;
+.tulisan_satu{
+    color: red;
+    font-family: sans-serif;
+    font-style: normal;
 }
 
-.box-dua{
-    background: green;
-    width: 250px;
-    height:100px;
-    padding-left: 70px;
-    text-align: center;
+.tulisan_dua{
+    color: green;
+    font-size: 24pt;
+    font-style: italic;
+}
+
+.tulisan_tiga{
+    color: orange;
+    font-weight: bold;
+    font-style: oblique;
 }
