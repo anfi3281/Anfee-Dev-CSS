@@ -4,10 +4,8 @@ body{
 .judul{
     text-align: center;
     color: white;   
-    background: rgb(110, 231, 110);
-    background-position: 100%;
-    position: relative;
-    
+    background: rgb(110, 231, 110) center fixed;
+    height: 100% auto;
 }
 
 .isi{
