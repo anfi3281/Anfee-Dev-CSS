@@ -1,13 +1,45 @@
 body{
     background: green;
+
 }
-.judul{
+.kotak{
+    background: red;
+    margin: 10px;
+    padding: 5px;
     text-align: center;
-    color: white;   
-    background: rgb(110, 231, 110) center fixed;
-    height: 100% auto;
 }
 
-.isi{
+#kotak{
+    background: blue;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.tulisan_satu{
     color: white;
+    font-family: sans-serif;
+    border: 5px solid blue;
+}
+
+.tulisan_dua{
+    color: orange;
+    font-style: italic;
+    font-size: 30pt;
+    border: 5px solid green;
+}
+
+.tulisan_tiga{
+    color: gray;
+    font-weight: bold;
+    font-style: oblique;
+    border: 7px solid yellow;
+}
+
+#tulisan_empat{
+    color: red;
+    font-wight: bold;
+    font-style: italic;
+    border: 9px solid black;
+>>>>>>> eba9977fd0efe4194684b30caeaf7f84183e533d
 }
